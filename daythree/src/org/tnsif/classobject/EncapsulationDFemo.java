@@ -1,11 +1,9 @@
 package org.tnsif.classobject;
+import org.tnsif.encapsulation.HDFC;
 
-import org.tnsif.encapsulation.HDFCBank;
-
-public class EncapsulationDemo {
-
+public class EncapsulationDFemo {
 	public static void main(String[] args) {
-		HDFCBank h =new HDFCBank();
+		HDFC h =new HDFC();
 		//setter
 		h.setCardno(451266542L);
 		h.setCardtype("Credit");
